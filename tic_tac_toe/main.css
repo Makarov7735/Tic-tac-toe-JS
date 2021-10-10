@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.restart-btn {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 620px;
+    left: calc(50% - 60px);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #d13131;
+    color: #000;
+    box-shadow: 0px 5px #999;
+    font-size: 16px;
+}
+.restart-btn:active {
+    box-shadow: 0 0 #999;
+    transform: translateY(5px);
+}
+.title {
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    left: calc(50% - 100px);
+    text-align: center;
+    font-size: 25px;
+}
+.board {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    top: 150px;
+    left: calc(50% - 210px);
+}
+.br {
+    background-color: #000;
+    position: absolute;
+}
+.br1 {
+    width: 100%;
+    height: 10px;
+    top: 135px;
+}
+.br2 {
+    width: 100%;
+    height: 10px;
+    top: 275px;
+}
+.br3 {
+    height: 100%;
+    width: 10px;
+    left: 135px;
+}
+.br4 {
+    height: 100%;
+    width: 10px;
+    left: 275px;
+}
+.fields {
+    width: 100%;
+    height: 100%;
+}
+.field {
+    position: absolute;
+    display: block;
+    width: 133px;
+    height: 133px;
+}
+.f1 {top: 0;left: 0;}
+.f2 {top: 0;left: 143px;}
+.f3 {top: 0;right: 0;}
+.f4 {top: 143px;left: 0;}
+.f5 {top: 143px;left: 143px;}
+.f6 {top: 143px;right: 0;}
+.f7 {bottom: 0;left: 0;}
+.f8 {bottom: 0;left: 143px;}
+.f9 {bottom: 0;right: 0;}
+.cross {
+    width: 133px; 
+}
+.circle {
+    position: absolute;
+    width: 113px;  
+    top: 10px;
+    left: 10px;
+}
+@media screen and (min-width: 900px) {
+    .restart-btn {
+        width: 240px;
+        height: 80px;
+        top: 1240px;
+        left: calc(50% - 120px);
+        line-height: 80px;
+        border-radius: 20px;
+        box-shadow: 0px 5px #999;
+        font-size: 32px;
+    }
+    .title {
+        width: 500px;
+        top: 100px;
+        left: calc(50% - 250px);
+        font-size: 50px;
+    }
+    .board {
+        width: 840px;
+        height: 840px;
+        top: 250px;
+        left: calc(50% - 420px);
+    }
+    .br1 {
+        width: 100%;
+        height: 20px;
+        top: 270px;
+    }
+    .br2 {
+        width: 100%;
+        height: 20px;
+        top: 550px;
+    }
+    .br3 {
+        height: 100%;
+        width: 20px;
+        left: 270px;
+    }
+    .br4 {
+        height: 100%;
+        width: 20px;
+        left: 550px;
+    }
+    .fields {
+        width: 100%;
+        height: 100%;
+    }
+    .field {
+        width: 266px;
+        height: 266px;
+    }
+    .f1 {top: 0;left: 0;}
+    .f2 {top: 0;left: 286px;}
+    .f3 {top: 0;right: 0;}
+    .f4 {top: 286px;left: 0;}
+    .f5 {top: 286px;left: 286px;}
+    .f6 {top: 286px;right: 0;}
+    .f7 {bottom: 0;left: 0;}
+    .f8 {bottom: 0;left: 286px;}
+    .f9 {bottom: 0;right: 0;}
+    .cross {
+        width: 286px; 
+    }
+    .circle {
+        width: 226px;  
+        top: 20px;
+        left: 20px;
+    }
+}
+
